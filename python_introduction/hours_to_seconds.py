@@ -1,4 +1,3 @@
 hours = 2
-seconds = 60 * 60
-ans = hours * seconds
-print(f"2 hours is equal to {ans} seconds")
+seconds = hours * 3600
+print(f"2 hours is equal to {seconds} seconds")
