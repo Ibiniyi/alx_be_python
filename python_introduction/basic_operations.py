@@ -1,9 +1,14 @@
-number1=10
-number2=5
-sum= number2 + number1
-subtraction= number1 -number2
-multiplication = number1 * number2
+# Define the variables
+number1 = 10
+number2 = 5
 
-print(f"the sum of {number2} and {number1} is {sum}" )
-print(f"{number2} subract {number1} is equal {subtraction} ")
-print(f" {number2} times {number1} is equal {multiplication}")
+# Perform operations
+sum_result = number1 + number2
+difference_result = number1 - number2
+product_result = number1 * number2
+
+# Print results
+print(f"Sum of {number1} and {number2} is {sum_result}")
+print(f"Difference of {number1} and {number2} is {difference_result}")
+print(f"Product of {number1} and {number2} is {product_result}")
+
